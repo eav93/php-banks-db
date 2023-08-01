@@ -87,6 +87,11 @@ class BankInfo
         return $this->data['engTitle'] ?? $this->data['name'];
     }
 
+    public function getName(): string
+    {
+        return $this->data['name'];
+    }
+
     public function getCountryCode(): string
     {
         return $this->data['country'];
