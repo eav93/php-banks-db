@@ -97,7 +97,7 @@ class BankInfo
         return $this->data['country'];
     }
 
-    public function getUrl(): string
+    public function getUrl(): ?string
     {
         return $this->data['url'];
     }
@@ -149,7 +149,7 @@ class BankInfo
             'localTitle' => 'Unknown Bank',
             'engTitle' => 'Unknown Bank',
             'country' => 'us',
-            'url' => '',
+            'url' => null,
             'color' => '#ffffff',
         ];
     }
