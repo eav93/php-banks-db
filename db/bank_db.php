@@ -19921,7 +19921,7 @@
       'country' => 'ru',
       'localTitle' => 'Газпромбанк',
       'engTitle' => 'Gazprombank',
-      'url' => 'http://gazprombank.ru/',
+      'url' => 'https://gazprombank.ru/',
       'color' => '#00448b',
     ),
     130 => 
